@@ -1,0 +1,44 @@
+/* CSS */
+/* RRGGBB - ff is maximum, 00 is none */
+a{
+  text-decoration: none;
+}
+a:link {
+  color: #FF0000;
+}
+a:visited {
+  color: #00FF00;
+}
+a:hover {
+  color: #FFFF00;
+  text-decoration: underline;
+}
+header {
+  background-color: #C7C4C4;
+  color: red;
+}
+main {
+  background-color: #646362;
+  color: white;
+}
+nav {
+  background-color: black;
+}
+.alternate {
+  background-color: white;
+  color: black;
+}
+#emphasis {
+  color: #98C8E1;
+}
+footer {
+  background-color: #DD61E1;
+}
+/*p {
+  color: #ff0000;
+  background-color: #0000ff;
+}*/
+
+/*h1 {
+  background-color: #80CBB3;
+}*/
