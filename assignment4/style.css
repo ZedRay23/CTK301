@@ -1,0 +1,68 @@
+/* CSS */
+/* RRGGBB - ff is maximum, 00 is none */
+a{
+  text-decoration: none;
+}
+a:link {
+  color: #FF0000;
+}
+a:visited {
+  color: #00FF00;
+}
+a:hover {
+  color: #FFFF00;
+  text-decoration: underline;
+}
+header {
+  color: red;
+}
+main {
+  background-color: #646362;
+  color: white;
+  text-align: justify;
+}
+nav {
+  background-color: black;
+}
+.alternate {
+  background-color: white;
+  color: black;
+}
+#emphasis {
+  color: #98C8E1;
+}
+footer {
+  background-color: #DD61E1;
+  text-align: center;
+}
+.boxmodel {
+  border: 10px solid black;
+  padding: 15px;
+  background-color: white;
+  width: 500px;
+}
+body {
+  font-family: sans-serif;
+  background-image: url(fancy.jpg);
+  background-size: cover;
+  margin: 100px;
+  padding: 10px;
+}
+h1, h2, h3, h4, h5 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+h1 {
+  background-color: black;
+}
+
+
+/*p {
+  color: #ff0000;
+  background-color: #0000ff;
+}*/
+
+/*h1 {
+  background-color: #80CBB3;
+}*/
