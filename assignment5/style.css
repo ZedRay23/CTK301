@@ -1,0 +1,63 @@
+body {
+  background-image: url(a5bg.png)
+}
+h1 {
+  background-color: white;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+  padding: 20px;
+}
+h2 {
+  font-family: Helvetica, sans-serif;
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  margin: 10px;
+  padding: 0px;
+  width: 150px;
+  display: inline-block;
+}
+nav li a {
+  background-color: darkblue;
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: blue;
+}
+main {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main p {
+  text-align: justify;
+}
+main a {
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
+}
+main a:hover {
+  text-decoration: underline;
+  color: red;
+}
+footer {
+  background-color: darkblue;
+  border: 3px solid white;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
