@@ -82,6 +82,7 @@ h1 {
   font-size: 50px;
   padding: 0;
   margin: 0;
+  font-family: 'Beau Rivage', cursive;
 }
 
 #headimg {
@@ -145,16 +146,26 @@ h3 {
   height: 200px;
 }
 
+#whole {
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px black;
+}
+
 #red {
   background-color: red;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 #blue {
   background-color: blue;
+
 }
 
 #yellow {
   background-color: yellow;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .thumbnail {
@@ -175,3 +186,5 @@ footer {
   padding-bottom: 4px;
   margin-top: 2em;
 }
+
+<i class="bi bi-instagram"></i>
