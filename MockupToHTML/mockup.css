@@ -15,6 +15,11 @@ body {
   grid-row-gap: 0px;
 }
 
+#mygallery {
+  text-align: center;
+  border: 1px solid red;
+}
+
 #fancy {
   grid-column: 1 / 13;
   grid-row: 1;
@@ -155,6 +160,10 @@ h3 {
   background-color: red;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+
+#red p {
+  padding-right: 24px;
 }
 
 #blue {

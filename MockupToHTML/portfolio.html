@@ -8,6 +8,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 </head>
 <body>
 	<div id="wrapper">
@@ -43,17 +45,30 @@
 			<h2>Favorite Projects</h2>
 			<div id="whole">
 			<div class="sections" id="red">
-				<img class="thumbnail" src="A_black_image.jpg" alt="Thumbnail">
-				<h3>Project One</h3>
-				<p>filler</p>
+				<div id="mygallery">
+						<a href="pp_beginning.jpg" data-fancybox="gallery" data-caption="The beginning of the level."><img class="thumbnail" src="pp_beginning.jpg"></a>
+						<a href="pp_catwalk.jpg" data-fancybox="gallery" data-caption="A view of the level from above."></a>
+						<a href="pp_center.jpg" data-fancybox="gallery" data-caption="The center goal and staircase that needs to extend."></a>
+						<a href="pp_trap.jpg" data-fancybox="gallery" data-caption="A glimpse into the center area with the final pressure plate."></a>
+				</div>
+				<h3>The Pressure Plate Puzzle</h3>
+				<p>One assignment given to the class during my Game Design 2 class was to create a level using the FPS Microgame preset on Unity. I chose to create a puzzle based on pressure plates that I programmed, so standing on a yellow or green square on the ground would cause something to happen and the square to go down.</p>
 			</div>
 			<div class="sections" id="blue">
-				<img class="thumbnail" src="A_black_image.jpg" alt="Thumbnail">
+				<div id="mygallery">
+						<a href="icecream.jpg" data-fancybox="gallery2" data-caption="Ice Cream"><img class="thumbnail" src="A_black_image.jpg"></a>
+						<a href="patch.jpg" data-fancybox="gallery2" data-caption="Patch"></a>
+						<a href="water.jpg" data-fancybox="gallery2" data-caption="Water"></a>
+				</div>
 				<h3>Project Two</h3>
 				<p>filler2</p>
 			</div>
 			<div class="sections" id="yellow">
-				<img class="thumbnail" src="A_black_image.jpg" alt="Thumbnail">
+				<div id="mygallery">
+						<a href="icecream.jpg" data-fancybox="gallery3" data-caption="Ice Cream"><img class="thumbnail" src="A_black_image.jpg"></a>
+						<a href="patch.jpg" data-fancybox="gallery3" data-caption="Patch"></a>
+						<a href="water.jpg" data-fancybox="gallery3" data-caption="Water"></a>
+				</div>
 				<h3>Project Three</h3>
 				<p>filler3</p>
 			</div>
