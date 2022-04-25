@@ -17,7 +17,20 @@ body {
 
 #mygallery {
   text-align: center;
-  border: 1px solid red;
+  border: 0px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+}
+
+#digigallery {
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  border: 0px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
 }
 
 #fancy {
@@ -149,9 +162,26 @@ h3 {
   margin: 0;
   color: white;
   height: 200px;
+  grid-column: 1 / 13;
+}
+
+#digitop {
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 1em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  border: 1px solid black;
 }
 
 #whole {
+  grid-column: 1 / 13;
   border-radius: 20px;
   box-shadow: 10px 10px 10px black;
 }
@@ -160,6 +190,7 @@ h3 {
   background-color: red;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  grid-column: 1 / 13;
 }
 
 #red p {
